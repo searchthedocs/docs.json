@@ -29,32 +29,34 @@ Page Object
 ``content`` and ``sections`` are both optional, 
 but one should be included.
 
-{
-    "title": "Installation Instructions",
-    "slug": "installation-instructions",
-    "url": "https://www.pip-installer.org/en/latest/installation-instructions.html",
-    "language": "en",
-    "content": "HTML",
-    "sections": {
-        "Install": {
-            "slug": "install",
-            "content": "HTML",
+::
+
+    {
+        "title": "Installation Instructions",
+        "slug": "installation-instructions",
+        "url": "https://www.pip-installer.org/en/latest/installation-instructions.html",
+        "language": "en",
+        "content": "HTML",
+        "sections": {
+            "Install": {
+                "slug": "install",
+                "content": "HTML",
+            }
+            "With Setuptools": {
+                "slug": "with-setuptools",
+                "content": "HTML",
+            }
+            "With Setuptools": "<html..",
         }
-        "With Setuptools": {
-            "slug": "with-setuptools",
-            "content": "HTML",
+        "tags": [
+            "pip",
+            "python",
+            "installer",
+        ],
+        "translations" {
+            "en": "http://pip.readthedocs.org/en/latest/installation-instructions.html",
+            "es": "http://pip.readthedocs.org/es/latest/installation-instructions.html",
         }
-        "With Setuptools": "<html..",
     }
-    "tags": [
-        "pip",
-        "python",
-        "installer",
-    ],
-    "translations" {
-        "en": "http://pip.readthedocs.org/en/latest/installation-instructions.html",
-        "es": "http://pip.readthedocs.org/es/latest/installation-instructions.html",
-    }
-}
 
 
