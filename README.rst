@@ -20,8 +20,8 @@ Field Explanations
 * ``tags`` - The Tag data associated with the page. This will be used for faceting.
 * ``translations`` - Versions of this document translated into another language.
 
-``content`` and ``sections`` are both optional, 
-but one should be included.
+``content`` or ``sections`` are required,
+depending on the granularity of your content.
 
 Structure
 ---------
