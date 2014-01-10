@@ -20,14 +20,21 @@ Field Explanations
 * ``tags`` - The Tag data associated with the page. This will be used for faceting.
 * ``translations`` - Versions of this document translated into another language.
 
+``content`` and ``sections`` are both optional, 
+but one should be included.
+
+Structure
+---------
+
+The general idea is there will be an endpoint that returns this data for a specific URL::
+
+    GET /api/docs_json/?url=https://www.pip-installer.org/en/latest/installation-instructions.html
+
 Example
 -------
 
 Page Object
 ~~~~~~~~~~~
-
-``content`` and ``sections`` are both optional, 
-but one should be included.
 
 ::
 
