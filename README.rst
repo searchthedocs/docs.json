@@ -30,6 +30,10 @@ The general idea is there will be an endpoint that returns this data for a speci
 
     GET /api/docs_json/?url=https://www.pip-installer.org/en/latest/installation-instructions.html
 
+It might also be implemented as a .json extension on a documentation page::
+
+    GET https://www.pip-installer.org/en/latest/installation-instructions.html.json
+
 Example
 -------
 
