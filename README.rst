@@ -34,6 +34,15 @@ It might also be implemented as a .json extension on a documentation page::
 
     GET https://www.pip-installer.org/en/latest/installation-instructions.html.json
 
+Discovery
+---------
+
+If you want your ``docs.json`` file to be easily discovered,
+you should place a reference to it in your HTML page::
+
+    <link rel="docs.json" href="https://www.pip-installer.org/en/latest/installation-instructions.html.json">
+    <link rel="docs.json" href="https://readthedocs.org/api/docs_json/?url=https://www.pip-installer.org/en/latest/installation-instructions.html">
+
 Example
 -------
 
