@@ -14,7 +14,7 @@ Field Explanations
 * ``title`` - The Title of the page. A string that contains a human readable title.
 * ``slug`` - The slug of a page, generally used for URLs. Should be alphanumeric with dashes for sperators.
 * ``url`` - The canonical URL for the page content.
-* ``language`` - The language code for the content. As specified by ``spec``.
+* ``language`` - The language code for the content. As specified by http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes.
 * ``content`` - The HTML content of the page. Stripped of any non-content markup.
 * ``sections`` - The HTML content of the main sections of a page. The section content should include all relevent HTML that could be included in the ``content`` section. 
 * ``tags`` - The Tag data associated with the page. This will be used for faceting.
